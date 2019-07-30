@@ -1,7 +1,11 @@
 # pymap
 Random Map Surface generator with Python
 
-There was a need of having random maps for a game project, so I started to read theory and realize there are really wierd and complex math below it. I was too complicated for me so I decided to use very-very simple math calculations and very-very simple algorithm logics. That is how it works:
+There was a need of having random maps for a game project, so I started to read theory and realize there are really wierd and complex math below it. I was too complicated for me so I decided to use very-very simple math calculations and very-very simple algorithm logics. 
+
+This code uses only built-in Python functions, only "random" is imported so so no extra modules needs to be installed.
+
+That is how it works:
 
 1) One simple matrix(x,y) function creates a random matrix with X long and Y heigh, with values from 0 to 254. Note the numbers in yellow.
 
