@@ -7,6 +7,12 @@ def matriz(tama):
 	matriz = [[0]*tama for x in xrange(tama)]
 	return matriz
 
+# not used yet (non-square empty matrix)
+def emptymatrix(x,y):
+    matriz = [[None]*y for x in xrange(x)]
+    return matriz
+
+
 def muestramatriztxt(matriz):
 	for i, e in reversed(list(enumerate(matriz))):
 		print str('%02d' % i)+" ",
