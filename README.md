@@ -11,7 +11,7 @@ That is how it works:
 
 ![first matrix](https://user-images.githubusercontent.com/37819159/62019546-608eff00-b18d-11e9-9a5b-007f45399062.png)
 
-2) One simple populate() functions iterates all matrix values and adds a random number in between all cells, keeping values into dots range (blue numbers). Note "12" and "90" values are calculated in row (horizontal) processing. For more complex generation "diamond square algorithm" can be used (see https://en.wikipedia.org/wiki/Diamond-square_algorithm)
+2) One simple populate() functions iterates all matrix values and adds a random number in between all cells, keeping values into dots range (blue numbers). Note "12" and "90" values are calculated in row (horizontal) processing. It is simplest than diamond square algorithm.
 
 ![second matrix](https://user-images.githubusercontent.com/37819159/62019547-608eff00-b18d-11e9-8d5f-162bbfed882c.png)
 
